@@ -1,0 +1,384 @@
+/* цвет фона и рамки навигационного меню */
+.navbar-default {
+    background-color: #25213f;
+    border-color: #ffffff;
+}
+/* цвет текста, содержащий название сайта или бренда */
+.navbar-default .navbar-brand {
+    color: rgb(255, 255, 255);
+}
+/* цвет текста (название сайта или бренда), при поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* Цвет пунктов навигационного меню */
+.navbar-default .navbar-nav > li > a {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+/* Цвет пункта меню, при поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: rgb(206, 38, 38);
+}
+/* Цвет и фон активного пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+/* Цвет и фон открытого пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* Цвет стрелочки (треугольничка) у раскрывающихся пунктов меню */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+/* Цвет стрелочки (треугольничка) при поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: rgb(0, 0, 0);
+}
+/* Цвет стрелочки (треугольничка), открывшегося пункта меню */
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* CSS стили для мобильных устройств */
+/* Цвет рамки у кнопки, которая открывает меню */
+.navbar-default .navbar-toggle {
+    border-color: rgb(255, 255, 255);
+}
+/* Цвет фона кнопки (которая открывает меню) при поднесении к ней курсора мышки или при нахождении её в фокусе */
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: rgb(255, 255, 255);
+}
+/* Цвет полосочек в кнопочке, которая открывает меню */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 767px) {
+/* Цвет пунктов меню в раскрывающихся списках */
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+/* Цвет и фон пункта меню в раскрывающихся списках, при поднесении к нему курсора мышки или при нахождении его в фокусе */
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+}
+
+body{
+    background-color: #221e4d;
+}
+
+.space{
+    margin-top:120px;
+}
+
+.carousel-inner img{
+    margin: auto;
+}
+
+.recommend_header{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+}
+
+.recommend_header h1{
+    margin-top: 50px;
+    margin-left:160px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size:200%;
+    font-weight: 500;
+    vertical-align: baseline;
+    background: 0 0;
+    text-decoration: none;
+}
+
+.film_block{
+    margin-top: 10px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.film_block img{
+    padding: 10px;
+}
+
+.film_block a img:hover{
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.top_films_block a img:hover{
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.top_shows_block a img:hover{
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.Top_films_header{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+.Top_films_header h1{
+    margin-top: 50px;
+    margin-left:160px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size:200%;
+    font-weight: 500;
+    vertical-align: baseline;
+    background: 0 0;
+    text-decoration: none;
+}
+
+.top_films_block{
+    margin-top: 10px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.top_films_block img{
+    padding: 10px;
+}
+
+
+.Top_shows_header{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+}
+
+.Top_shows_header h1{
+    margin-top: 50px;
+    margin-left:160px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size:200%;
+    font-weight: 500;
+    vertical-align: baseline;
+    background: 0 0;
+    text-decoration: none;
+}
+
+.Top_anime_header{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+}
+
+.Top_anime_header h1{
+    margin-top: 50px;
+    margin-left:160px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size:200%;
+    font-weight: 500;
+    vertical-align: baseline;
+    background: 0 0;
+    text-decoration: none;
+}
+
+.top_shows_block{
+    margin-top: 10px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.top_shows_block img{
+    padding: 10px;
+    
+
+}
+
+.top_anime_block{
+    margin-top: 10px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.top_anime_block img{
+    padding: 10px;
+}
+
+.top_anime_block a img:hover{
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.Poster_name{
+    width: 234px;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: #25213f;
+    padding:40px 0;
+    color: white;
+}
+
+.footer-left a{
+    color: white;
+    margin-right: 20px;
+    font-size: 15px;
+    
+    
+}
+
+.footer-right a{
+    color: white;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.text_content{
+    margin: 20px 160px;
+    color: white;
+}
+
+.film_content{
+    margin-top: 120px;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding: 0 0 0 5px;
+    color: white;
+    text-align: left;
+    float: left;
+    height: 1400px;
+}
+
+.info_film_page {
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+
+.info_film_page .label {
+	font-size: 1.2em;
+}
+
+.info_film_page .value {
+	font-size: 1em;
+	color: #ec0f0f;
+	margin-right: 3%;
+}
+
+.description_film {
+	margin-bottom: 15%;
+}
+
+.description_film img {
+	float: left;
+	margin-right: 2%;
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+}
+
+.reviews {
+	margin-bottom: 4%;
+	font-size: 0.9em;
+    
+}
+
+.reviews .review_name {
+	background-color: #7268ad;
+	color: white;
+	padding: 1%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.reviews .review_text {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+    border-color: white;
+}
+
+hr{
+    background-color: white;
+}
+
+.main{
+    margin: 0 160px;
+    border-width: 2px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
